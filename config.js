@@ -43,7 +43,7 @@ module.exports = {
   SUDO: process.env.SUDO || '918590404292',
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || '',
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || '',
-  BOT_INFO: process.env.BOT_INFO || 'speed.8x💌💗;ft.anaxdhu💌;https://i.imgur.com/VIpl3q5.mp4',
+  BOT_INFO: process.env.BOT_INFO || 'speed.8x💌💗;ft.anaxdhu💌;https://i.imgur.com/o3wsAjp.mp4',
   WORK_TYPE: process.env.WORK_TYPE || 'public',
   DATABASE: DATABASE_URL === "./database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 };
